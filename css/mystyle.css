@@ -1,0 +1,207 @@
+body{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-weight: bold;
+
+}
+
+#top-bar{
+    width: 100%;
+    
+    display: flex;
+}
+.logo{
+    width: 40%;
+   
+}
+.nav{
+    width: 60%;
+   
+}
+.nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+.nav ul li{
+    list-style: none;
+}
+.nav ul li a{
+text-decoration: none;
+color: black;
+font-size: 30px;
+}
+.nav ul li a:hover{
+    color: orange;
+    transition: 0.5s;
+}
+#best{
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+}
+.best{
+    width: 50%;
+    height: 500px;
+    
+}
+.best h1{
+    font-size: 50px;
+   padding-left: 50px;
+   padding-top: 30px;
+
+}
+.best p{
+    font-size: 15px;
+    padding-left: 50px;
+    padding-top: 5px;
+}
+.best input[type="button"]{
+  padding: 10px;
+  margin-left: 50px;
+  background-color: hotpink;
+  border: none;
+  cursor: pointer;
+  margin-top: 30px;
+}
+.best input[type="button"]:hover{
+    background-color: orange;
+    transition: 0.5s;
+}
+.best1{
+    width: 50%;
+    height: 500px;
+
+}
+#foot{
+    width: 100%;
+    margin-top: 100px;
+    
+}
+.foot{
+    width: 100%;
+    display:flex;
+}
+.div1{
+    width: 25%;
+}
+.div2{
+    width: 25%;
+}
+.div3{
+    width: 25%;
+    cursor: pointer;
+}
+.div4{
+    width: 25%;
+}
+.div4 input[type="email"]{
+    padding: 10px;
+}
+.div4 input[type="button"]{
+    padding: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+    background-color: brown;
+    border: none;
+}
+.div4 input[type="button"]:hover{
+    background-color: orange;
+    transition: 0.5s;
+}
+.foot1{
+    width: 100%;
+    height: 50px;
+    margin-top: 50px;
+}
+.foot1 p{
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+#about{
+    width: 100%; display: flex;margin-top: 100px;
+}
+.about1{
+    width: 50%; 
+}
+
+.about2{
+    width: 50%; 
+}
+.about2 h2{
+    font-size: 40px;
+}
+.about2 p{
+    font-size: 20px;
+}
+.about2 input[type="button"]{
+    padding: 10px;margin-top: 20px;cursor: pointer;background-color: tomato;border: none;
+    
+}
+.about2 input[type="button"]:hover{
+    background-color: orange;transition: o.5s;
+}
+#fru{
+    width: 100%;
+}
+.our{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 100px;
+}
+
+#contact{
+    width: 100%; display: flex;margin-top: 100px;
+}
+.contact1{
+    width: 60%;
+    height: 500px;
+   
+}
+.contact2{
+    width: 40%;
+    height: 500px;
+    
+}
+.contact2 input[type="text"]{
+    padding: 10px;
+    margin-top: 10px;
+    
+}
+.contact2 textarea{
+    margin-top: 10px;
+}
+.contact2 input[type="button"]{
+    padding: 10px;cursor: pointer;background-color: tomato;border: none;
+}
+.contact2 input[type="button"]:hover{
+    background-color:orange;transition: 0.5s;
+}
+#blog h1{
+    font-size: 50px; text-align: center;margin-top: 100px;
+}
+.blog{
+  display: flex;
+}
+.f{
+    width: 300px; height: 400px; background-color: peru; box-shadow: 4px 4px 5px; margin-left: 100px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.f img{
+    width: 300px; height: 250px;
+}
+.fruit1{
+    width: 300px;height: 400px;box-shadow: 4px 4px 5px;margin-left: 100px;
+}
+.fruit{
+    display: flex;
+}
+.fruit1 img{
+    width: 300px;height: 250px;
+}
+.g h3{
+    text-align: center;font-size: 35px;
+}
+.g h4{
+    text-align: center;font-size: 20px; 
+}
